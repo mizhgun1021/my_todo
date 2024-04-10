@@ -1,0 +1,13 @@
+.my-styled-link {
+  color: white;
+  text-decoration: none;
+}
+.my-top-header {
+  margin: 15px 0 15px 0!important;
+}
+
+.my-card-header {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
