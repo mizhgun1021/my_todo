@@ -24,7 +24,6 @@ const App: React.FC = () => {
     <div className="App">
       <Routes>
         <Route path="/" element={<Layout />}>
-          <Route path="/check" element={<div>123</div>} />
           <Route index element={<TodoListPage />} />
           <Route path="/todo/new" element={<CreateTodoPage />} />
           <Route path="/todo/:id" element={<TodoDetailPage />} />
